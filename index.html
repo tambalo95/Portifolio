@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Eduardo Tambalo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icon.ico" type="image/png">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+    <img src="imagens/minha.foto.jpg" alt="Foto Eduardo Tambalo">
+    <h1>Eduardo Tambalo</h1>
+</header>
+
+<!-- ===================== NAV ===================== -->
+<nav>
+    <button class="nav-toggle">☰</button>
+    <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#loja">Loja</a></li>
+        <li><a href="#receitas">Receitas</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+    </ul>
+</nav>
+
+<!-- ===================== MAIN ===================== -->
+<main>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou desenvolvedor e designer, apaixonado por criar sites modernos, interativos e funcionais. Tenho experiência em HTML, CSS, JS e projetos de portfólio completos.</p>
+    </section>
+
+    <!-- LOJA -->
+<section id="loja">
+    <h2>Loja</h2>
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="loja">Loja</button>
+    </div>
+
+    <div class="loja-grid portfolio-grid">
+        <div class="loja-item portfolio-item" data-category="loja">
+            <img src="imagens/produto1.jfif " alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>Descrição curta do produto 1, destacando características importantes e benefícios.</p>
+            <p class="preco">R$ 49,90</p>
+            <button class="btn-loja">Comprar</button>
+        </div>
+
+        <div class="loja-item portfolio-item" data-category="loja">
+            <img src="imagens/produto2.jfif" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>Descrição curta do produto 2, informando detalhes que ajudam o cliente a decidir.</p>
+            <p class="preco">R$ 79,90</p>
+            <button class="btn-loja">Comprar</button>
+        </div>
+
+        <!-- Adicione mais produtos seguindo o mesmo modelo -->
+    </div>
+</section>
+
+    <!-- RECEITAS -->
+    <section id="receitas">
+        <h2>Receitas</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="receitas">Receitas</button>
+        </div>
+        <div class="portfolio-grid receitas-list">
+            <div class="portfolio-item" data-category="receitas">
+                <img src="imagens/tempura.jfif" alt="Receita 1">
+                <p>Tempura de Legumes</p>
+            </div>
+            <div class="portfolio-item" data-category="receitas">
+                <img src="imagens/receita2.jfif" alt="Receita 2">
+                <p>Camarão ao Alho</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="loja">Loja</button>
+            <button class="filter-btn" data-filter="receitas">Receitas</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="loja">
+                <img src="imagens/produto1.jfif" alt="Produto 1">
+            </div>
+            <div class="portfolio-item" data-category="loja">
+                <img src="imagens/produto2.jfif" alt="Produto 2">
+            </div>
+            <div class="portfolio-item" data-category="receitas">
+                <img src="imagens/tempura.jfif" alt="Receita 1">
+            </div>
+            <div class="portfolio-item" data-category="receitas">
+                <img src="imagens/receita2.jfif" alt="Receita 2">
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+    <p>© 2025 Eduardo Tambalo | 
+        <a href="https://www.linkedin.com/in/eduardo-tambalo-70b6471b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> | 
+        <a href="https://www.instagram.com/tambalo95oficial?igsh=MTdobXc4Zm4yc3BhZA==" target="_blank">Instagram</a>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
