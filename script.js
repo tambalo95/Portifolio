@@ -94,4 +94,4 @@ cards.forEach(card => {
 /* ===================== ALERTA FORMULÁRIO ===================== */
 function enviarMensagem(){
     alert("Mensagem enviada com sucesso!");
-}
+} 
