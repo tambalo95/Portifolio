@@ -163,7 +163,9 @@ section h2 {
 }
 
 .loja-item {
-    display: flex;
+    width: 70%;
+    margin: 15px auto;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
@@ -176,7 +178,7 @@ section h2 {
 }
 
 .loja-item img {
-    width: 100%;
+    width: 70%;
     border-radius: 15px;
     margin-bottom: 15px;
     transition: transform 0.4s, filter 0.4s;
